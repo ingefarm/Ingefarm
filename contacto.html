@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos - IngeFarm E.U.</title>
+    <link rel="stylesheet" href="colorcitos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pavanam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="imagenes/logo/logo.png" />
+</head>
+<body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <header>
+        
+        <div class="imagen">
+            <img src="imagenes/logo/Logo.png" alt="">
+            <h1>INGEFARM E.U.</h1>            
+        </div>
+        <menu class="menu">
+            <div class="lista">
+                <a href="index.html"">Nosotros</a>
+                <a href="porta.html">Portafolio</a>
+                <!-- <a href="#proyecto">Proyectos</a> -->
+                <a href="clientes.html">Clientes</a>
+                <a href="contacto.html">Contactanos</a>
+            </div>
+        </menu>       
+    </header>
+    <section class="contenedor-contactar">
+        <div class="contactar">
+
+            <div class="item_contac parte1">
+                <label class="contactar_etiqueta" for="nombre">Nombre: </label>
+            </div>
+            <div class="item_contac parte2">
+                <input class="contactar_espacio" type="text" name="nombre" placeholder="Nombre" id="name">
+            </div>
+            <div class="item_contac parte3">
+                <label class="contactar_etiqueta" for="apellido">Apellido: </label>
+            </div>
+            <div class="item_contac parte4">
+                <input class="contactar_espacio" type="text" name="apellido" placeholder="Apellido" id="apellido">
+            </div>
+            <div class="item_contac parte5">
+                <label class="contactar_etiqueta" for="telefono">Telefono: </label>
+            </div>
+            <div class="item_contac parte6">
+                <input class="contactar_espacio" type="text" name="telefono" placeholder="Telefono" id="telefono">
+            </div>
+            <div class="item_contac parte7">
+                <label class="contactar_etiqueta" for="correo">Correo: </label>
+            </div>
+            <div class="item_contac parte8">
+                <input class="contactar_espacio" type="text" name="correo" placeholder="@correo.com" id="correo">
+            </div>
+            <div class="item_contac parte9">
+                <input class="contactar_boton" type="submit" value="Enviar" id="btnEnviar" onClick='mandalo()'>
+            </div>
+            <div class="item_contac parte10">
+                <div class="dialogocontacto">
+                    <p>  Envianos tu informacion y con gusto nos pondremos en
+                    contacto, recuerda que para nosotros siempre va ser
+                   una meta el crecimiento de tu empresa y para eso te 
+                   prestaremos los mejores servicios.</p>
+                </div>
+            </div>
+
+              
+
+        </div>
+        
+        
+    </section>
+
+    <footer id="footer">
+        <div class="contactanos">
+               Encuentranos en: 
+        </div>
+        <div class="iconos">
+            <!-- <a class="twitter" href=""></a> -->
+            <a class="linkedin" href=""></a>
+            <a class="facebook" href="https://www.facebook.com/ingefarmeu"></a>
+            <a class="instagram" href=""></a>
+        </div>
+        <p class="ubicacion">
+            Carrera 53 # 5A - 34<br />
+            Telefono: 4 65 01 40<br />
+            Celular: 313 686 46 41 / 320 818 24 11<br />
+            Correo: ingefarm@hotmail.com<br />
+            BOGOTA - COLOMBIA<br /><br />
+
+            
+
+        </p>
+        
+        <div class="creditos">
+            POWERED BY REGNIEK
+        </div>
+    </footer>
+    <i class="icon-menu burger-botton" id="burger"></i>
+    <script src="contactos.js"></script>
+</body>
+</html>
