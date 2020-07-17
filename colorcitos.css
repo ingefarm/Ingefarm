@@ -77,7 +77,7 @@ menu a{
 .container{
     width: 100%;
     height: 500px;
-    background-image: URL("file:///D:/Documentos/Programacion/ingefarm/imagenes/fotos/proto.jpeg");
+    background-image: URL("./imagenes/fotos/proto.jpeg");
 }
 .chistoria{
     color:white;
@@ -234,19 +234,19 @@ footer{
     padding: 15px;
 }
 .twitter{
-    background-image: url("file:///D:/Documentos/Programacion/ingefarm/twitter.png");
+    background-image: url("./twitter.png");
     background-size: contain;
 }
 .linkedin{
-    background-image: url("file:///D:/Documentos/Programacion/ingefarm/linkedin.png");
+    background-image: url("./linkedin.png");
     background-size: contain;
 }
 .facebook{
-    background-image: url("file:///D:/Documentos/Programacion/ingefarm/facebook.png");
+    background-image: url("./facebook.png");
     background-size: contain;
 }
 .instagram{
-    background-image: url("file:///D:/Documentos/Programacion/ingefarm/instagram.png");
+    background-image: url("./instagram.png");
     background-size: contain;
 }
 
@@ -442,7 +442,7 @@ header img{
 
 }
 .icon-menu{
-    background-image: url("file:///D:/Documentos/Programacion/ingefarm/imagenes/logo/menu.png");
+    background-image: url("./imagenes/logo/menu.png");
     background-position: center;
     background-repeat: no-repeat;
 }
